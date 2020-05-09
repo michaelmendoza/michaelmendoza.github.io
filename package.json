@@ -23,7 +23,7 @@
     "prettier": "2.0.5"
   },
   "scripts": {
-    "deploy": "gastby build gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b master --silent"
   },
   "repository": {
     "type": "git",
